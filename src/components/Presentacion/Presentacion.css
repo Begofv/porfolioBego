@@ -1,0 +1,78 @@
+/* Estilos para el contenedor principal */
+.comienzoContainer {
+    height: 710px;
+    width: 100%;
+    background-image: url('../../../public/principal.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; /* No repetir la imagen */
+
+}
+
+/* Estilos para el contenedor de texto */
+.comienzotexto {
+    max-width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 100px;
+    
+}
+
+.comienzotexto h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left; 
+    justify-content: center;
+    color: #233115;
+}
+
+
+.comienzoButton {
+
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 20%;
+    height: 50px;
+    margin-left: 100px;
+}
+
+
+  /* Estilos para dispositivos medianos */
+  @media screen and (max-width: 1024px) {
+    .comienzoContainer {
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .comienzotexto {
+      margin-left: 50px;
+    }
+  
+    .comienzotexto h2 {
+      font-size: 40px;
+    }
+  
+    .comienzoButton {
+      width: 30%;
+      margin-left: 50px;
+      font-size: 18px;
+    }
+  }
+  
+  .hidden-mobile {
+    display: none;
+  }
+  
+  @media screen and (min-width: 769px) {
+    .hidden-mobile {
+      display: block; /* Muestra el componente a partir de 769px */
+    }
+  }
+  

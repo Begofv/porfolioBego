@@ -1,0 +1,89 @@
+.timeline { 
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .timeline-titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #233115
+
+  }
+
+  .timeline-line {
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    bottom: 10px;
+    width: 12px;
+    background:  #697644;
+
+  }
+  
+  .timeline-trabajo {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .trabajo-container {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-left: 120px;
+  }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .timeline-titulo {
+      font-size: 1.5rem; /* Reduce el tamaño del texto en pantallas más pequeñas */
+  }
+
+  .timeline-line {
+      left: 50px; /* Mueve la línea más cerca del borde en pantallas pequeñas */
+      width: 10px; /* Reduce el grosor de la línea */
+  }
+
+  .trabajo-container {
+      margin-left: 20px; /* Reduce el margen izquierdo */
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-titulo {
+      font-size: 1.2rem; /* Reduce más el tamaño del texto */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      font-weight: bold;
+  }
+.timeline-titulo h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+  .timeline-line {
+      left: 30px; /* Ajusta la línea aún más */
+      width: 10px; /* Reduce más el grosor de la línea */
+  }
+
+  .trabajo-container {
+      margin-left: 10px; /* Ajusta el margen izquierdo para pantallas muy pequeñas */
+  }
+}

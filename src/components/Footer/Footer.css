@@ -1,0 +1,132 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e8efe1;
+    padding: 16px 20px; /* Padding para móviles */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .copyright {
+    flex: 1;
+    text-align: left;
+    color: black;
+    margin-left: 60px; 
+}
+
+.footer .creators {
+    display: none; /* Hide creators on mobile */
+}
+
+.footer .creators .creator {
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.footer .creators .creator:hover {
+    transform: translateY(-3px); 
+}
+
+.footer .creators .creator .creator-avatar {
+    border-radius: 50%;
+    width: 30px; /* móviles */
+    height: 30px; /* móviles */
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.footer .creators .creator-name {
+    font-size: 10px; /* móviles */
+    color: black;
+}
+
+.scroll-to-top {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    position: absolute; /* Cambiado de fixed a absolute */
+    left: 20px; /* Alineado a la izquierda */
+    bottom: 20px; /* Alineado al fondo */
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #223D3C;
+    color:#ffffff;
+    transform: translateY(-3px);
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Smaller gap for mobile */
+    margin-top: 10px;
+    color: #abc78f;
+    padding-right: 20px; /* Add padding to the right */
+}
+
+.footer-icons .footer-icon {
+    font-size: 1.5rem; /* Smaller icon size for mobile */
+    padding-right: 10px;
+}
+
+.icon_link {
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon_link:hover {
+    color: #223D3C;
+    transform: translateY(-3px);
+}
+
+@media (min-width: 768px) {
+    .footer {
+        padding: 16px 32px; /* Para escritorio */
+    }
+
+    .footer .copyright {
+        margin-left: 60px; /* Ajusta el margen izquierdo para escritorio */
+    }
+
+    .footer .creators {
+        display: flex; /* Display creators on desktop */
+        flex: 1;
+        margin-right: 55px; /* escritorio */
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .footer .creators .creator {
+        margin-left: 10px; /* escritorio */
+    }
+
+    .footer .creators .creator-avatar {
+        width: 40px; /* Para escritorio */
+        height: 40px; /* Para escritorio */
+    }
+
+    .footer .creators .creator-name {
+        font-size: 12px; /* Para escritorio */
+    }
+
+    .footer-icons {
+        gap: 20px; /* Larger gap for desktop */
+        padding-right: 40px; /* Add padding to the right for desktop */
+    }
+
+    .footer-icons .footer-icon {
+        font-size: 2rem; /* Larger icon size for desktop */
+    }
+}

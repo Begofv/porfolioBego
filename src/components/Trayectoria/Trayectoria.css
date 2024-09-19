@@ -1,0 +1,81 @@
+.trayectoriaContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.trayectoriaContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+
+.trayectoriaText {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.trayectoriaText p {
+    position: relative;
+    text-align: center;
+    padding: 0 20px;
+    color: #333;
+}
+
+.trayectoriaText::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #d4d4d4;
+    z-index: -1;
+}
+
+.trayectoriaText p::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 3px solid #223D3C;
+    border-radius: 50%;
+}
+
+.trayectoriaButton {
+    margin-top: 20px;
+    text-align: center;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .trayectoriaContent {
+        flex-direction: column; /* Cambia la dirección de los elementos a columnas */
+    }
+
+    .trayectoriaText {
+        flex-direction: column; /* Cambia la dirección del texto a columna */
+        align-items: center;
+    }
+
+    .trayectoriaText p {
+        padding: 10px 0; /* Ajusta el padding del texto */
+    }
+}
+
+@media (max-width: 480px) {
+    .trayectoriaContainer {
+        padding: 10px; /* Reduce el padding en pantallas pequeñas */
+    }
+
+    .trayectoriaText p {
+        font-size: 14px; /* Reduce el tamaño del texto */
+    }
+}

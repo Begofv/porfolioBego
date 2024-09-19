@@ -1,0 +1,193 @@
+/* Estilos generales para el contenedor principal */
+.introContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+/* Estilos para el contenedor de la sección "intro" */
+.introContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    max-width: 1200px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    border-radius: 17px;
+    margin-top: 80px;
+    gap: 50px;
+
+}
+
+/* Estilos para el contenedor interno de "intro" */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+    gap: 20px;
+
+}
+
+/* Estilos para el texto dentro de "intro" */
+.introText {
+    margin-bottom: 0 0 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+    gap: 20px;
+}
+
+.introText h2 {
+    font-size: 30px;
+    margin-bottom: 0 0 50px 10px;
+    text-align: justify;
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+}
+
+.introText p {
+    font-size: 20px;
+    margin-bottom: 0 0 50px 10px;
+    text-align: justify;
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    flex-direction: column;
+}
+
+/* Estilos para el contenedor de la imagen */
+.introImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.5;
+    border: 10px solid #e8efe1;
+    box-shadow: 0 0 10px rgba(216, 206, 206, 0.2);
+    border-radius: 400px;
+    overflow: hidden;
+    width: 100%;
+    max-height: 100%;
+}
+
+/* Estilos para la imagen */
+.introImg img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.linkedin {
+    color: #233115;
+    background-color: #ABB3AB;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin-left: 450px;
+}
+
+.linkedin h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.linkedin:hover {
+    background-color: #697644;
+    color: #D4D9D1;
+}
+
+
+/* Estilos generales para dispositivos pequeños */
+@media screen and (max-width: 768px) {
+    .introContainer {
+      margin: 20px;
+      padding: 10px;
+    }
+  
+    .introContent {
+      flex-direction: column;
+      height: auto;
+      gap: 20px;
+      padding: 10px;
+    }
+  
+    .introImg {
+      width: 100%;
+      height: auto;
+      border: 5px solid #e8efe1;
+    }
+  
+    .introText h2 {
+      font-size: 24px;
+      margin: 0 0 20px;
+    }
+  
+    .introText p {
+      font-size: 16px;
+      margin: 0 0 20px;
+    }
+  
+    .linkedin {
+      width: 70%;
+      margin-left: 0;
+      align-self: center;
+    }
+  }
+  
+  /* Estilos para dispositivos medianos */
+  @media screen and (max-width: 1024px) {
+    .introContent {
+      flex-direction: column;
+      height: auto;
+      gap: 30px;
+    }
+  
+    .introImg {
+      flex: none;
+      width: 60%;
+      margin-bottom: 20px;
+      border: 8px solid #e8efe1;
+    }
+  
+    .introText h2 {
+      font-size: 28px;
+    }
+  
+    .introText p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Estilos para dispositivos muy pequeños */
+  @media screen and (max-width: 480px) {
+    .introText h2 {
+      font-size: 20px;
+    }
+  
+    .introText p {
+      font-size: 14px;
+    }
+  
+    .linkedin {
+      width: 90%;
+      margin-left: 0;
+      align-self: center;
+    }
+  
+    .introContent {
+      gap: 15px;
+    }
+  }
+  
