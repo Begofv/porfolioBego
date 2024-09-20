@@ -15,8 +15,8 @@ Aquí hay una selección de algunos de los proyectos en los que he trabajado:
 ### Proyecto 1: [Trebol](https://enlace-al-proyecto.com)
 - **Descripción**: Proyecto de Full Stack en equipo multidisciplinario. Este proyecto fue un desafío propuesto por la empresa Seniority.IA
 
-### Proyecto 2: [Nombre del Proyecto](https://enlace-al-proyecto.com)
-- **Descripción**: Horizontes Lejanos es una página web de viajes creada en un proyecto intensivo de dos semanas por un equipo de cuatro personas. 
+### Proyecto 2: [Horizontes Lejanos](https://enlace-al-proyecto.com)
+- **Descripción**: Es una página web de viajes creada en un proyecto intensivo de dos semanas por un equipo de cuatro personas. 
 
 
 
