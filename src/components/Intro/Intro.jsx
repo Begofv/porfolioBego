@@ -21,10 +21,10 @@ const Intro = () => {
 
                 <div className='intro'>
                     <div className='introText'>
-                        <h2>Hola! Soy Bego(ña), Desarrolladora Web Full Stack/Administrativa</h2>
+                        <h2>Hola! Soy Begoña, Desarrolladora Web Full Stack y Administrativa.</h2>
 
-                        <p>Tras varios años trabajando como Administrativa, decidí dar un nuevo rumbo a mi carrera estudiando el Bootcamp de Desarrollo Web Full Stack de la BBK con The Bridge, un bootcamp intensivo de desarrollo web, el cual completé con éxito.<br></br>
-                            <br></br> Durante este proceso, descubrí mi pasión por la programación y adquirí una sólida comprensión de tecnologías front-end y back-end. <br></br>
+                        <p>Después de varios años trabajando como administrativa, decidí dar un nuevo rumbo a mi carrera estudiando el Bootcamp de Desarrollo Web Full Stack de la BBK con The Bridge, un curso intensivo de desarrollo web que completé con éxito.<br></br>
+                            <br></br> Durante este proceso, descubrí mi pasión por la programación y adquirí una sólida comprensión de tecnologías tanto de front-end como de back-end. <br></br>
                             <br></br> Además, esta experiencia me permitió desarrollar proyectos reales, consolidando tanto mis habilidades técnicas como mi capacidad para resolver problemas de forma creativa. <br></br>
                             <br></br> Sin duda, ha sido una etapa clave en mi crecimiento profesional y personal.</p>
                     </div>

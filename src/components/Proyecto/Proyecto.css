@@ -207,7 +207,20 @@
   padding: 15px;
   font-size: 1.2rem;
 }
+.modalHerramientas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Ajustar herramientas en el modal también */
+  gap: 10px;
+  margin-top: 10px;
+}
 
+.modalHerramientaImg {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
 
 /* Ajustes generales para pantallas más pequeñas */
 @media screen and (max-width: 1200px) {
@@ -338,6 +351,11 @@
     font-size: 1rem;
     padding: 10px;
   }
+  .modalHerramientaImg {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -403,6 +421,11 @@
     font-size: 1rem;
     padding: 10px;
   }
+ .modalHerramientaImg {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -444,5 +467,10 @@
     width: 100%;
     font-size: 0.8rem;
     padding: 10px;
+  }
+  .modalHerramientaImg {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
   }
 }
