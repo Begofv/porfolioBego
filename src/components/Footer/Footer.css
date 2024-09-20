@@ -1,24 +1,33 @@
+/* Footer.css */
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #e8efe1;
-    padding: 16px 20px; /* Padding para móviles */
+    background: #BAC4A7;
+    padding: 16px 20px;
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 0.5s ease-in-out;
+}
+
+.footer.visible {
+    opacity: 1; 
 }
 
 .footer .copyright {
     flex: 1;
     text-align: left;
     color: black;
-    margin-left: 60px; 
+    margin-left: 60px;
+    color: #233115;
+
 }
 
 .footer .creators {
-    display: none; /* Hide creators on mobile */
+    display: none; 
 }
 
 .footer .creators .creator {
@@ -35,98 +44,93 @@
 
 .footer .creators .creator .creator-avatar {
     border-radius: 50%;
-    width: 30px; /* móviles */
-    height: 30px; /* móviles */
+    width: 30px; 
+    height: 30px; 
     object-fit: cover;
     margin-bottom: 5px;
 }
 
 .footer .creators .creator-name {
-    font-size: 10px; /* móviles */
-    color: black;
+    font-size: 10px;
+    color: #233115;
 }
 
 .scroll-to-top {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    background-color: #233115;
+    color: #D4D9D1;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 50%;
     font-size: 1.5rem;
-    position: absolute; /* Cambiado de fixed a absolute */
-    left: 20px; /* Alineado a la izquierda */
-    bottom: 20px; /* Alineado al fondo */
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
     z-index: 1000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .scroll-to-top:hover {
-    background-color: #223D3C;
-    color:#ffffff;
-    transform: translateY(-3px);
-}
-
-.footer-icons {
-    display: flex;
-    justify-content: center;
-    gap: 10px; /* Smaller gap for mobile */
-    margin-top: 10px;
-    color: #abc78f;
-    padding-right: 20px; /* Add padding to the right */
-}
-
-.footer-icons .footer-icon {
-    font-size: 1.5rem; /* Smaller icon size for mobile */
-    padding-right: 10px;
-}
-
-.icon_link {
-    color: #fff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.icon_link:hover {
-    color: #223D3C;
+    background-color: #697644;
+    color: #D4D9D1;
     transform: translateY(-3px);
 }
 
 @media (min-width: 768px) {
     .footer {
-        padding: 16px 32px; /* Para escritorio */
+        padding: 16px 32px;
     }
 
     .footer .copyright {
-        margin-left: 60px; /* Ajusta el margen izquierdo para escritorio */
+        margin-left: 60px;
     }
 
     .footer .creators {
-        display: flex; /* Display creators on desktop */
+        display: flex;
         flex: 1;
-        margin-right: 55px; /* escritorio */
+        margin-right: 55px;
         justify-content: flex-end;
         align-items: center;
     }
 
     .footer .creators .creator {
-        margin-left: 10px; /* escritorio */
+        margin-left: 10px;
     }
 
     .footer .creators .creator-avatar {
-        width: 40px; /* Para escritorio */
-        height: 40px; /* Para escritorio */
+        width: 40px;
+        height: 40px;
     }
 
     .footer .creators .creator-name {
-        font-size: 12px; /* Para escritorio */
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .footer-icons {
-        gap: 20px; /* Larger gap for desktop */
-        padding-right: 40px; /* Add padding to the right for desktop */
+    .footer .copyright {
+        margin-left: 0;
+        margin-bottom: 10px;
     }
 
-    .footer-icons .footer-icon {
-        font-size: 2rem; /* Larger icon size for desktop */
+    .footer .creators {
+        margin-right: 0;
+    }
+
+    .footer .creators .creator {
+        margin-left: 6px;
+    }
+
+    .scroll-to-top {
+        left: 40px;
+        transform: translateX(-50%);
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        bottom: 15px;
     }
 }
