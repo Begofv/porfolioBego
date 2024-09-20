@@ -1,11 +1,13 @@
 
+
+
+
 .contact-container {
     max-width: 600px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #e8efe1;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(30, 46, 22, 0.8);
     
 }
 
@@ -13,7 +15,7 @@ h1 {
     text-align: center;
     font-size: 36px;
     margin: 20px;
-    color: #223D3C;
+    color: #233115;
 }
 
 p {
@@ -21,6 +23,7 @@ p {
     margin: 30px;
     font-size: 16px;
     text-align: justify;
+    color: #233115;
 }
 
 .form-group {
@@ -31,26 +34,29 @@ p {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
+    color: #233115;
+
 }
 
 .input, textarea {
     width: 100%;
     height: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid #697644;
     border-radius: 5px;
     font-size: 14px;
+    color: #697644;
+    padding: 5px;
 }
 
 .textarea {
     resize: none;
     height: 150px;
-}
+    color: #697644;
 
+}
 .submit-button {
     width: 30%;
     padding: 14px;
-    background-color: #223D3C;
-    color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -60,16 +66,20 @@ p {
     }
 
 .submit-button:hover {
-    background-color: #fff;
-    color: #223D3C;
-    border-color: #223D3C;
-    box-shadow: #223D3C 0px 0px 10px;
+    background-color: #697644;
+    color: #D4D9D1;
 }
 
 .enlacesContacto a{
     text-decoration: none;
-    color: #223D3C;
+    color: #233115;
     font-size: 16px;
     margin-left: 10px;
     margin-right: 10px
+}
+.confirmation-message {
+    margin-top: 20px;
+    color: #233115;
+    font-size: 1.2rem;
+    text-align: center;
 }

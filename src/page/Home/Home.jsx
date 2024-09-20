@@ -22,7 +22,7 @@ const home = () => {
       <Timeline/>
       <Curriculum/>
       <Contacto/>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
