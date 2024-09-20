@@ -6,8 +6,6 @@
   margin: 150px 0;
   padding: 10px;
   background-color: #bac4a728;
-
-
 }
 
 .proyectosHeader {
@@ -28,7 +26,6 @@
 
 .proyectosCard {
   background-color: white;
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -52,7 +49,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  /* margin-bottom: 2rem; */
   max-width: 350px;
   min-height: 400px;
   gap: 4rem;
@@ -60,9 +56,6 @@
   transition: 0.2s ease;
 }
 
-/* .card :hover{
-    padding: 20px;
-  } */
 .card h2 {
   margin-bottom: 10px;
   color: #223D3C;
@@ -95,12 +88,10 @@
 
 .card:hover h2 {
   opacity: 0.1;
-  /* Hacer más transparente el texto */
 }
 
 .card:hover .hover-text {
   display: block;
-  /* Mostrar el texto "Ver" */
 }
 
 .proyectosImg {
@@ -115,24 +106,46 @@
   border-radius: 8px;
 }
 
+.proyectosImg:hover {
+  transform: scale(0.8);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 .botones {
   display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin: 40px 0;
 }
+
 .proyectosButton {
-  text-decoration: none;
-  color: inherit;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.proyectosButtons {
   width: 300px;
-  padding: 15px;
-  margin: 20px;
   color: #233115;
-  font-size: 1rem;
-  font-weight: bold;
+  background-color: #ABB3AB;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.2rem;
+
 }
-.proyectosButton a{
+
+.proyectosButton a {
   text-decoration: none;
 }
+
 .modalImg {
   display: flex;
   justify-content: center;
@@ -142,7 +155,7 @@
 }
 
 .modalImage {
-  max-width: 80%; 
+  max-width: 80%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -174,7 +187,7 @@
   margin: 1rem;
 }
 
-.botonesModal { 
+.botonesModal {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,22 +195,254 @@
   margin-top: 1rem;
 }
 
+.modalButton {
+  width: 300px;
+  color: #233115;
+  background-color: #ABB3AB;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.2rem;
+}
 
-@media screen and (max-width: 720px) {
-  p {
-    text-align: justify;
+
+/* Ajustes generales para pantallas más pequeñas */
+@media screen and (max-width: 1200px) {
+  .proyectosCard {
+    width: 80%;
+    /* Reducir el ancho de la tarjeta */
   }
 
-  h2 {
-    font-size: 2rem;
-  }
-
-  h1 {
+  .tituloProyectos {
     font-size: 2.5rem;
+    /* Reducir el tamaño del título */
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .proyectoContainer {
+    margin: 100px 0;
+    /* Reducir el margen superior e inferior */
+  }
+
+  .proyectosCard {
+    width: 90%;
+    /* Hacer las tarjetas más anchas */
+    flex-direction: column;
+    /* Cambiar a diseño en columna */
+    text-align: center;
+    /* Alinear el texto al centro */
+    padding: 20px;
   }
 
   .card {
-    margin: 10px 0;
-    gap: 1rem;
+    max-width: 100%;
+    /* Aumentar el ancho máximo de la tarjeta */
+    min-height: 300px;
+    /* Reducir la altura mínima */
+    margin-bottom: 1rem;
+    /* Reducir el margen inferior */
+  }
+
+  .hover-text {
+    font-size: 2.5rem;
+    /* Reducir el tamaño del texto de hover */
+  }
+
+  .projectImg {
+    width: 100%;
+    height: auto;
+    /* Ajustar la altura automáticamente */
+  }
+
+  .proyectosImg {
+    width: 100%;
+    /* Ajustar el ancho */
+    height: auto;
+    /* Ajustar la altura automáticamente */
+    margin: 0 auto;
+    /* Centrar la imagen */
+  }
+
+  .botones {
+    flex-direction: column;
+    /* Cambiar a disposición en columna */
+  }
+
+  .proyectosButton {
+    width: 80%;
+    /* Reducir el ancho del botón */
+  }
+  .modalButton {
+    width: 100%;
+    font-size: 1rem;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tituloProyectos {
+    font-size: 2rem;
+    /* Reducir el tamaño del título */
+  }
+
+  .proyectosCard {
+    width: 100%;
+    /* Tarjetas de ancho completo */
+    margin: 1rem 0;
+    /* Reducir márgenes */
+  }
+
+  .card {
+    min-height: 250px;
+    /* Reducir altura mínima */
+  }
+
+  .modalNombre {
+    font-size: 2rem;
+    /* Reducir el tamaño del título del modal */
+  }
+
+  .modalContenido {
+    font-size: 1.2rem;
+    /* Reducir el tamaño del contenido del modal */
+  }
+
+  .modalImage {
+    max-width: 100%;
+    /* Aumentar el tamaño máximo */
+    height: auto;
+    /* Ajustar altura automáticamente */
+    margin-left: 0;
+  }
+
+  .botones {
+    flex-direction: column;
+    /* Cambiar a disposición en columna */
+    gap: 15px;
+    /* Espacio entre los botones en columna */
+  }
+
+  .proyectosButton {
+    width: 100%;
+    /* Ancho completo */
+    display: flex;
+    justify-content: center;
+    /* Centrar el contenido del botón */
+  }
+  .modalButton {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .proyectosHeader {
+    margin: 50px 0;
+    /* Reducir el margen */
+  }
+
+  .proyectosCard {
+    padding: 10px;
+    /* Reducir el padding de la tarjeta */
+  }
+
+  .card {
+    padding: 5px;
+    /* Reducir el padding de la tarjeta */
+    font-size: 16px;
+    /* Reducir el tamaño de fuente */
+  }
+
+  .tituloProyectos {
+    font-size: 1.5rem;
+    /* Reducir el tamaño del título */
+  }
+
+  .hover-text {
+    font-size: 1.5rem;
+    /* Reducir el tamaño del texto de hover */
+  }
+
+  .botones {
+    margin-bottom: 50px;
+    /* Reducir el margen inferior */
+  }
+
+  .proyectosButton {
+    width: 100%;
+    /* Botones de ancho completo */
+    font-size: 0.9rem;
+    /* Reducir el tamaño del texto del botón */
+  }
+
+  .modalNombre {
+    font-size: 1.5rem;
+    /* Reducir el tamaño del título del modal */
+  }
+
+  .modalContenido {
+    font-size: 1rem;
+    /* Reducir el tamaño del contenido del modal */
+  }
+
+  .modalImage {
+    max-width: 100%;
+    /* Aumentar el tamaño máximo */
+    height: auto;
+    /* Ajustar la altura automáticamente */
+    margin-left: 0;
+  }
+
+  .modalButton {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tituloProyectos {
+    font-size: 1.2rem;
+    /* Reducir más el tamaño del título */
+  }
+
+  .proyectosCard {
+    padding: 5px;
+    /* Reducir el padding de la tarjeta */
+  }
+
+  .card {
+    font-size: 14px;
+    /* Reducir el tamaño de fuente */
+  }
+
+  .hover-text {
+    font-size: 1rem;
+    /* Reducir más el tamaño del texto de hover */
+  }
+
+  .modalNombre {
+    font-size: 1.5rem;
+    /* Reducir más el tamaño del título del modal */
+  }
+
+  .modaldescripcion {
+    font-size: 0.8rem;
+    /* Reducir más el tamaño del contenido del modal */
+  }
+
+  .modalContenido p {
+    font-size: 0.8rem;
+  }
+
+  .modalButton {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 10px;
   }
 }

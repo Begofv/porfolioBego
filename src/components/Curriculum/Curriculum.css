@@ -87,7 +87,7 @@
 
     .curriculumButton,
     .linkedinCurriculum {
-        width: 180px; 
+        width: 100%; 
     }
 }
 
@@ -110,7 +110,7 @@
 
     .curriculumButton,
     .linkedinCurriculum {
-        width: 80%; 
+        width: 100%; 
     }
 }
 
@@ -120,15 +120,16 @@
         padding: 10px; 
     }
 
-    .curriculumText {
+    .curriculumtexto {
         font-size: 1rem; 
-        padding: 10px; 
+        padding: 16px; 
     }
 
     .curriculumButton,
     .linkedinCurriculum {
-        width: 90%;
+        width: 100%;
         font-size: 14px; 
         padding: 10px; 
     }
+    
 }
