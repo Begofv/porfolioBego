@@ -42,6 +42,9 @@
     margin-left: 100px;
 }
 
+.comienzoBoton a {
+    text-decoration: none;
+}
 
   /* Estilos para dispositivos medianos */
   @media screen and (max-width: 1024px) {

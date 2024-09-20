@@ -4,9 +4,9 @@
     background-color: #bac4a728;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el contenido horizontalmente */
-    justify-content: center; /* Centra el contenido verticalmente */
-    padding: 20px; /* Añade algo de espacio alrededor */
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
     box-sizing: border-box;
 }
 
@@ -19,22 +19,22 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 50px; /* Separa el texto de los botones */
+    margin-bottom: 100px; 
 }
 
 .curriculumText {
     color: #233115;
     text-align: center;
     padding: 20px;
-    max-width: 1400px; /* Limita el ancho del texto */
+    max-width: 1400px; 
 }
 
 .curriculumButtons {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 800px; /* Limita el ancho de los botones */
-    margin-top: 30px; /* Ajusta el margen superior para posicionar los botones más bajos */
+    max-width: 900px; 
+    margin-top: 40px; 
 }
 
 .descargar,
@@ -43,12 +43,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px; /* Añade margen horizontal para separarlos */
+    margin: 0 10px; 
 }
 
 .curriculumButton,
 .linkedinCurriculum {
-    width: 200px; /* Reduce el tamaño de los botones */
+    width: 300px;
     color: #233115;
     background-color: #ABB3AB;
     border-radius: 10px;
@@ -61,7 +61,7 @@
 
 .linkedinCurriculum h3,
 .curriculumButton h3 {
-    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    font-size: 16px; 
     font-weight: bold;
 }
 
@@ -77,58 +77,58 @@
 /* Para pantallas de hasta 1200px */
 @media (max-width: 1200px) {
     .curriculumContainer {
-        height: auto; /* Ajusta la altura automáticamente */
-        padding: 20px 15px; /* Reduce el padding */
+        height: auto; 
+        padding: 20px 15px; 
     }
 
     .curriculumButtons {
-        max-width: 90%; /* Reduce el ancho máximo de los botones */
+        max-width: 90%; 
     }
 
     .curriculumButton,
     .linkedinCurriculum {
-        width: 180px; /* Reduce un poco el ancho de los botones */
+        width: 180px; 
     }
 }
 
 /* Para pantallas de hasta 768px (tablets) */
 @media (max-width: 768px) {
     .curriculumtexto {
-        font-size: 1.2rem; /* Reduce el tamaño del texto */
+        font-size: 1.2rem; 
     }
 
     .curriculumButtons {
-        flex-direction: column; /* Coloca los botones en una columna */
-        align-items: center; /* Centra los botones */
-        margin-top: 20px; /* Ajusta el margen superior */
+        flex-direction: column; 
+        align-items: center; 
+        margin-top: 20px; 
     }
 
     .descargar,
     .enlace {
-        margin: 10px 0; /* Añade margen vertical entre los botones */
+        margin: 10px 0; 
     }
 
     .curriculumButton,
     .linkedinCurriculum {
-        width: 80%; /* Aumenta el ancho de los botones */
+        width: 80%; 
     }
 }
 
 /* Para pantallas de hasta 480px (móviles) */
 @media (max-width: 480px) {
     .curriculumContainer {
-        padding: 10px; /* Reduce el padding */
+        padding: 10px; 
     }
 
     .curriculumText {
-        font-size: 1rem; /* Reduce el tamaño de la fuente del texto */
-        padding: 10px; /* Reduce el padding del texto */
+        font-size: 1rem; 
+        padding: 10px; 
     }
 
     .curriculumButton,
     .linkedinCurriculum {
-        width: 90%; /* Ocupa casi todo el ancho */
-        font-size: 14px; /* Reduce el tamaño de la fuente */
-        padding: 10px; /* Reduce el padding de los botones */
+        width: 90%;
+        font-size: 14px; 
+        padding: 10px; 
     }
 }

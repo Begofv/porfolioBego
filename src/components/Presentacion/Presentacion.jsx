@@ -12,7 +12,7 @@ const Presentacion = () => {
             <div className='comienzotexto'>
                 <h2>Desarrolladora Web, Full Stack/ Administrativa</h2>
             </div>
-            <div >
+            <div className='comienzoBoton'>
                 <a href='#contacto'> 
 
                     <ActionButton label="Contactame" className={"comienzoButton"} />

@@ -123,9 +123,16 @@
 .proyectosButton {
   text-decoration: none;
   color: inherit;
-
+  width: 300px;
+  padding: 15px;
+  margin: 20px;
+  color: #233115;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-
+.proyectosButton a{
+  text-decoration: none;
+}
 .modalImg {
   display: flex;
   justify-content: center;
