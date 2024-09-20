@@ -4,8 +4,8 @@
 
 ## Enlaces
 
-- **[Mi LinkedIn] https://www.linkedin.com/in/begoña-fdez-veiga**: Conéctate conmigo y descubre más sobre mi trayectoria profesional.
-- **[Proyectos en GitHub] https://www.github.com/Begofv**: Explora el código de mis proyectos.
+- **Mi LinkedIn: https://www.linkedin.com/in/begoña-fdez-veiga**: Conéctate conmigo y descubre más sobre mi trayectoria profesional.
+- **Proyectos en GitHub: https://www.github.com/Begofv**: Explora el código de mis proyectos.
 - **[Porfolio en Vivo](https://tu-sitio-web.com)**: Visita mis porfolio desplegado en línea.
 
 ## Proyectos
@@ -22,10 +22,10 @@ Aquí hay una selección de algunos de los proyectos en los que he trabajado:
 
 ## Experiencia Laboral
 
-### Empresa 1
+### Seniority.Ai
 - **Cargo**: Desarrolladora Web
 
-### Empresa 2
+### 1957 Bizkarra S.L
 - **Cargo**: Oficial Administrativa
 
 
