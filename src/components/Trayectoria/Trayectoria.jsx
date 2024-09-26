@@ -27,9 +27,7 @@ const Trayectoria = () => {
 
                 {empresas.map((empresa) => (
                     <div className="trayectoriaItem" key={empresa.id}>
-                        <div className="trayectoriaLogo">
-                            <img src={empresa.logo} alt={empresa.nombre} className='empresaLogo'/>
-                        </div>
+
                         <div className="trayectoriaText">
                             <h2>{empresa.nombre}</h2>
                             <p>{empresa.puesto}</p>
