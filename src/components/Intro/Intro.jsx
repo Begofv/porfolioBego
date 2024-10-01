@@ -21,7 +21,7 @@ const Intro = () => {
 
                 <div className='intro'>
                     <div className='introText'>
-                        <h2>Hola! Soy Begoña, Desarrolladora Web Full Stack y Administrativa.</h2>
+                        <h2>¡Hola! Soy Begoña, Desarrolladora Web Full Stack y Administrativa.</h2>
 
                         <p>Después de varios años trabajando como administrativa, decidí dar un nuevo rumbo a mi carrera estudiando el Bootcamp de Desarrollo Web Full Stack de la BBK con The Bridge, un curso intensivo de desarrollo web que completé con éxito.<br></br>
                             <br></br> Durante este proceso, descubrí mi pasión por la programación y adquirí una sólida comprensión de tecnologías tanto de front-end como de back-end. <br></br>
@@ -30,7 +30,7 @@ const Intro = () => {
                     </div>
 
                     <div className="linkedin" onClick={() => window.open('https://www.linkedin.com/in/begoña-fdez-veiga', '_blank')}>
-                        <h3>Mi Linkedin</h3>
+                        <h3>Mi LinkedIn</h3>
                     </div>
 
 

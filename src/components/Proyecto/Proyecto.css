@@ -163,7 +163,13 @@
   margin-left: 10%;
 }
 
-
+.modalDescripcion {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #233115;
+  line-height: 1.5;
+}
 .modalHeader {
   display: flex;
   justify-content: center;

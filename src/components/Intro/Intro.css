@@ -46,7 +46,6 @@
 .introText h2 {
     font-size: 30px;
     margin-bottom: 0 0 50px 10px;
-    text-align: justify;
     display: flex;
     justify-content: justify;
     align-items: justify;
@@ -55,11 +54,9 @@
 .introText p {
     font-size: 20px;
     margin-bottom: 0 0 50px 10px;
-    text-align: justify;
     display: flex;
-    justify-content: justify;
-    align-items: justify;
     flex-direction: column;
+    line-height: 1.5rem;
 }
 
 /* Estilos para el contenedor de la imagen */

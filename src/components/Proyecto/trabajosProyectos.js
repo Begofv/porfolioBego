@@ -23,7 +23,7 @@ const trabajos = [
 2. Desarrollar una solución integral que ofrezca asistencia técnica especializada en UX (experiencia de usuario) adaptada a las necesidades de las personas mayores. Esto proporcionará a empresas y emprendedores las herramientas necesarias para seleccionar formación en UX amigable para personas mayores (Senior-Friendly) y les permitirá contratar servicios de asistencia técnica para proyectos enfocados en la Silver Economy.`,
         herramientas: [html, css, javascript, react, vite, express, nodejs, mongo],
         github: "https://github.com/Begofv/Desafio",
-        link: "https://seniority.ia/"
+        link: "https://trebol.begofv.com/"
     },
     {
         proyecto: "2",
@@ -34,7 +34,7 @@ const trabajos = [
 El proyecto está estructurado en dos partes principales: el cliente (frontend) y el servidor (backend), lo que garantiza una experiencia de usuario fluida y una gestión eficiente de los datos.`,
         herramientas: [html, css, javascript, react, vite, express, nodejs, mongo],
         github: "https://github.com/Begofv/horizontes_lejanos",
-        link: "https://horizonteslejanos.ia/"
+        link: "https://horizonteslejanos.begofv.com/"
     },
 ];
 

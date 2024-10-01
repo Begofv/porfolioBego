@@ -77,8 +77,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 200px;
     text-align: center;
+    padding-bottom: 20px;
 }
-
 .duracion {
     display: flex;
     flex-direction: column;
@@ -109,16 +109,24 @@
 .empresaD {
     font-size: 18px;
     color:#233115;
-    margin: 30px;
+    margin: 0px;
     max-height: 150px; 
     overflow: hidden;
     text-overflow:ellipsis;
     white-space: wrap;
-    text-align: justify;
+    padding: 1rem;
 }
 
 
 /* Media Queries */
+@media (max-width: 1000px) {
+    .empresaD {
+        margin: 0;
+        font-size: 16px; /* Reduce el tamaño del texto */
+
+    }
+}
+
 @media (max-width: 768px) {
     .cardEmpresa {
         min-width: 400px; /* Reduce el tamaño mínimo de la tarjeta */
@@ -137,6 +145,7 @@
     }
     .empresaD {
         font-size: 16px; /* Reduce el tamaño del texto */
+        margin: 0;
     }
 
     .subtitulo {
@@ -171,6 +180,5 @@
 
     .empresaD {
         font-size: 14px; /* Reduce el tamaño del texto */
-        margin: 15px; /* Reduce el margen interno */
     }
 }

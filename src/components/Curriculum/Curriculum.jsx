@@ -14,7 +14,7 @@ const Curruculum = () => {
     return (
         <div className="curriculumContainer">
             <div className='curriculumtexto'>
-                <h2 className='curriculumText'>Si quieres saber mas sobre mi experiencia labora, puedes descargar mi curriculum en el siguiente botón, o puedes ver mi Linkedin</h2>
+                <h2 className='curriculumText'>Si quieres saber más sobre mi experiencia laboral, puedes descargar mi curriculum en el siguiente botón, o puedes ver mi LinkedIn</h2>
             </div>
             <div className="curriculumButtons">
                 <div className='descargar'>
@@ -25,7 +25,7 @@ const Curruculum = () => {
                 <div className='enlace'>
 
                     <div className="linkedinCurriculum" onClick={() => window.open('https://www.linkedin.com/in/begoña-fdez-veiga', '_blank')}>
-                        <h3>Mi Linkedin</h3>
+                        <h3>Mi LinkedIn</h3>
                     </div>
                 </div>
 
