@@ -54,9 +54,10 @@
 .introText p {
     font-size: 20px;
     margin-bottom: 0 0 50px 10px;
-    display: flex;
+    display: block;
     flex-direction: column;
-    line-height: 1.5rem;
+    line-height: 1.5rem; 
+    text-align: left;
 }
 
 /* Estilos para el contenedor de la imagen */
