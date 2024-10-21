@@ -18,7 +18,7 @@ const Curruculum = () => {
             </div>
             <div className="curriculumButtons">
                 <div className='descargar'>
-                    <a className='curriculumButton' href='./assets/Bego_Fdez_Veiga_CV.pdf' download='Bego_Fdez_Veiga_CV.pdf'>
+                    <a className='curriculumButton' href='./Bego_Fdez_Veiga_CV.pdf' download='Bego_Fdez_Veiga_CV.pdf'>
                         <h3>Descargar Curriculum</h3>
                     </a>
                 </div>
